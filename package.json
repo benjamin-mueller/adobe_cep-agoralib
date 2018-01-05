@@ -1,0 +1,29 @@
+{
+  "name": "agoralib-ts",
+  "version": "1.0.0",
+  "description": "Typescript implementation of Adobe CEP AgoraLib.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "benjamin.mueller@burda.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "typescript",
+    "agoralib",
+    "adobe",
+    "cep",
+    "extension",
+    "plugin"
+  ],
+  "dependencies": {
+    "tslib": "^1.7.1",
+    "vulcan-ts": "file:../vulcan-ts",
+    "csinterface-ts": "file:../csinterface-ts"
+  },
+  "bundleDependencies": false,
+  "typings": "/dist/agoralib-ts",
+  "module": "./esm5/common.js"
+}
